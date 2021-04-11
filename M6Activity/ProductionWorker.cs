@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace M6Activity
 {
-    class ProductionWorker
+    class ProductionWorker : Employee
     {
+        public int shift { get; set; }
+        public int payRate { get; set; }
     }
 }
