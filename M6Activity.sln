@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M6Activity", "M6Activity\M6Activity.csproj", "{BF3DF800-998C-4DDB-858B-73433E502FC0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF3DF800-998C-4DDB-858B-73433E502FC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF3DF800-998C-4DDB-858B-73433E502FC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF3DF800-998C-4DDB-858B-73433E502FC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF3DF800-998C-4DDB-858B-73433E502FC0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CB96F2F4-76BC-49AB-898F-A9A57E3CBC6E}
+	EndGlobalSection
+EndGlobal
