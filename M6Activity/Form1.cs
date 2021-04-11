@@ -26,7 +26,7 @@ namespace M6Activity
             obj.shift = Convert.ToInt32(shiftBox.Text);
             obj.payRate = Convert.ToInt32(payBox.Text);
 
-            MessageBox.Show("Employee Info \n" +
+            MessageBox.Show("Employee Info \n\n" +
                             "Name: " + obj.empName + " Employee ID#: " + obj.empNumber + " Employee Shift Number: " + obj.shift + " Employee Pay Rate: " + obj.payRate);
         }
     }
