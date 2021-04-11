@@ -16,5 +16,17 @@ namespace M6Activity
         {
             InitializeComponent();
         }
+
+        private void displayButton_Click(object sender, EventArgs e)
+        {
+            ProductionWorker obj = new ProductionWorker();
+
+            obj.empName = nameBox.Text;
+            obj.empNumber = numberBox.Text;
+            obj.shift = Convert.ToInt32(shiftBox.Text);
+            obj.payRate = Convert.ToInt32(payBox.Text);
+
+
+        }
     }
 }

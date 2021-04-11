@@ -57,6 +57,7 @@ namespace M6Activity
             this.displayButton.TabIndex = 1;
             this.displayButton.Text = "Display Information";
             this.displayButton.UseVisualStyleBackColor = true;
+            this.displayButton.Click += new System.EventHandler(this.displayButton_Click);
             // 
             // numberLabel
             // 
